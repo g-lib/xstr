@@ -1,68 +1,68 @@
-# xstrings #
+# xstr #
 
-[![Build Status](https://travis-ci.org/huandu/xstrings.svg?branch=master)](https://travis-ci.org/huandu/xstrings)
-[![GoDoc](https://godoc.org/github.com/huandu/xstrings?status.svg)](https://godoc.org/github.com/huandu/xstrings)
-[![Go Report](https://goreportcard.com/badge/github.com/huandu/xstrings)](https://goreportcard.com/report/github.com/huandu/xstrings)
-[![Coverage Status](https://coveralls.io/repos/github/huandu/xstrings/badge.svg?branch=master)](https://coveralls.io/github/huandu/xstrings?branch=master)
+[![Build Status](https://travis-ci.org/huandu/xstr.svg?branch=master)](https://travis-ci.org/huandu/xstr)
+[![GoDoc](https://godoc.org/github.com/huandu/xstr?status.svg)](https://godoc.org/github.com/huandu/xstr)
+[![Go Report](https://goreportcard.com/badge/github.com/huandu/xstr)](https://goreportcard.com/report/github.com/huandu/xstr)
+[![Coverage Status](https://coveralls.io/repos/github/huandu/xstr/badge.svg?branch=master)](https://coveralls.io/github/huandu/xstr?branch=master)
 
-Go package [xstrings](https://godoc.org/github.com/huandu/xstrings) is a collection of string functions, which are widely used in other languages but absent in Go package [strings](http://golang.org/pkg/strings).
+Go package [xstr](https://godoc.org/github.com/huandu/xstr) is a collection of string functions, which are widely used in other languages but absent in Go package [strings](http://golang.org/pkg/strings).
 
 All functions are well tested and carefully tuned for performance.
 
 ## Propose a new function ##
 
-Please review [contributing guideline](CONTRIBUTING.md) and [create new issue](https://github.com/huandu/xstrings/issues) to state why it should be included.
+Please review [contributing guideline](CONTRIBUTING.md) and [create new issue](https://github.com/huandu/xstr/issues) to state why it should be included.
 
 ## Install ##
 
 Use `go get` to install this library.
 
-    go get github.com/huandu/xstrings
+    go get github.com/huandu/xstr
 
 ## API document ##
 
-See [GoDoc](https://godoc.org/github.com/huandu/xstrings) for full document.
+See [GoDoc](https://godoc.org/github.com/huandu/xstr) for full document.
 
 ## Function list ##
 
 Go functions have a unique naming style. One, who has experience in other language but new in Go, may have difficulties to find out right string function to use.
 
-Here is a list of functions in [strings](http://golang.org/pkg/strings) and [xstrings](https://godoc.org/github.com/huandu/xstrings) with enough extra information about how to map these functions to their friends in other languages. Hope this list could be helpful for fresh gophers.
+Here is a list of functions in [strings](http://golang.org/pkg/strings) and [xstr](https://godoc.org/github.com/huandu/xstr) with enough extra information about how to map these functions to their friends in other languages. Hope this list could be helpful for fresh gophers.
 
-### Package `xstrings` functions ###
+### Package `xstr` functions ###
 
 *Keep this table sorted by Function in ascending order.*
 
 | Function | Friends | # |
 | -------- | ------- | --- |
-| [Center](https://godoc.org/github.com/huandu/xstrings#Center) | `str.center` in Python; `String#center` in Ruby | [#30](https://github.com/huandu/xstrings/issues/30) |
-| [Count](https://godoc.org/github.com/huandu/xstrings#Count) | `String#count` in Ruby | [#16](https://github.com/huandu/xstrings/issues/16) |
-| [Delete](https://godoc.org/github.com/huandu/xstrings#Delete) | `String#delete` in Ruby | [#17](https://github.com/huandu/xstrings/issues/17) |
-| [ExpandTabs](https://godoc.org/github.com/huandu/xstrings#ExpandTabs) | `str.expandtabs` in Python | [#27](https://github.com/huandu/xstrings/issues/27) |
-| [FirstRuneToLower](https://godoc.org/github.com/huandu/xstrings#FirstRuneToLower) | `lcfirst` in PHP or Perl | [#15](https://github.com/huandu/xstrings/issues/15) |
-| [FirstRuneToUpper](https://godoc.org/github.com/huandu/xstrings#FirstRuneToUpper) | `String#capitalize` in Ruby; `ucfirst` in PHP or Perl | [#15](https://github.com/huandu/xstrings/issues/15) |
-| [Insert](https://godoc.org/github.com/huandu/xstrings#Insert) | `String#insert` in Ruby | [#18](https://github.com/huandu/xstrings/issues/18) |
-| [LastPartition](https://godoc.org/github.com/huandu/xstrings#LastPartition) | `str.rpartition` in Python; `String#rpartition` in Ruby | [#19](https://github.com/huandu/xstrings/issues/19) |
-| [LeftJustify](https://godoc.org/github.com/huandu/xstrings#LeftJustify) | `str.ljust` in Python; `String#ljust` in Ruby | [#28](https://github.com/huandu/xstrings/issues/28) |
-| [Len](https://godoc.org/github.com/huandu/xstrings#Len) | `mb_strlen` in PHP | [#23](https://github.com/huandu/xstrings/issues/23) |
-| [Partition](https://godoc.org/github.com/huandu/xstrings#Partition) | `str.partition` in Python; `String#partition` in Ruby | [#10](https://github.com/huandu/xstrings/issues/10) |
-| [Reverse](https://godoc.org/github.com/huandu/xstrings#Reverse) | `String#reverse` in Ruby; `strrev` in PHP; `reverse` in Perl | [#7](https://github.com/huandu/xstrings/issues/7) |
-| [RightJustify](https://godoc.org/github.com/huandu/xstrings#RightJustify) | `str.rjust` in Python; `String#rjust` in Ruby | [#29](https://github.com/huandu/xstrings/issues/29) |
-| [RuneWidth](https://godoc.org/github.com/huandu/xstrings#RuneWidth) | - | [#27](https://github.com/huandu/xstrings/issues/27) |
-| [Scrub](https://godoc.org/github.com/huandu/xstrings#Scrub) | `String#scrub` in Ruby | [#20](https://github.com/huandu/xstrings/issues/20) |
-| [Shuffle](https://godoc.org/github.com/huandu/xstrings#Shuffle) | `str_shuffle` in PHP | [#13](https://github.com/huandu/xstrings/issues/13) |
-| [ShuffleSource](https://godoc.org/github.com/huandu/xstrings#ShuffleSource) | `str_shuffle` in PHP | [#13](https://github.com/huandu/xstrings/issues/13) |
-| [Slice](https://godoc.org/github.com/huandu/xstrings#Slice) | `mb_substr` in PHP | [#9](https://github.com/huandu/xstrings/issues/9) |
-| [Squeeze](https://godoc.org/github.com/huandu/xstrings#Squeeze) | `String#squeeze` in Ruby | [#11](https://github.com/huandu/xstrings/issues/11) |
-| [Successor](https://godoc.org/github.com/huandu/xstrings#Successor) | `String#succ` or `String#next` in Ruby | [#22](https://github.com/huandu/xstrings/issues/22) |
-| [SwapCase](https://godoc.org/github.com/huandu/xstrings#SwapCase) | `str.swapcase` in Python; `String#swapcase` in Ruby | [#12](https://github.com/huandu/xstrings/issues/12) |
-| [ToCamelCase](https://godoc.org/github.com/huandu/xstrings#ToCamelCase) | `String#camelize` in RoR | [#1](https://github.com/huandu/xstrings/issues/1) |
-| [ToKebab](https://godoc.org/github.com/huandu/xstrings#ToKebabCase) | - | [#41](https://github.com/huandu/xstrings/issues/41) |
-| [ToSnakeCase](https://godoc.org/github.com/huandu/xstrings#ToSnakeCase) | `String#underscore` in RoR | [#1](https://github.com/huandu/xstrings/issues/1) |
-| [Translate](https://godoc.org/github.com/huandu/xstrings#Translate) | `str.translate` in Python; `String#tr` in Ruby; `strtr` in PHP; `tr///` in Perl | [#21](https://github.com/huandu/xstrings/issues/21) |
-| [Width](https://godoc.org/github.com/huandu/xstrings#Width) | `mb_strwidth` in PHP | [#26](https://github.com/huandu/xstrings/issues/26) |
-| [WordCount](https://godoc.org/github.com/huandu/xstrings#WordCount) | `str_word_count` in PHP | [#14](https://github.com/huandu/xstrings/issues/14) |
-| [WordSplit](https://godoc.org/github.com/huandu/xstrings#WordSplit) | - | [#14](https://github.com/huandu/xstrings/issues/14) |
+| [Center](https://godoc.org/github.com/huandu/xstr#Center) | `str.center` in Python; `String#center` in Ruby | [#30](https://github.com/huandu/xstr/issues/30) |
+| [Count](https://godoc.org/github.com/huandu/xstr#Count) | `String#count` in Ruby | [#16](https://github.com/huandu/xstr/issues/16) |
+| [Delete](https://godoc.org/github.com/huandu/xstr#Delete) | `String#delete` in Ruby | [#17](https://github.com/huandu/xstr/issues/17) |
+| [ExpandTabs](https://godoc.org/github.com/huandu/xstr#ExpandTabs) | `str.expandtabs` in Python | [#27](https://github.com/huandu/xstr/issues/27) |
+| [FirstRuneToLower](https://godoc.org/github.com/huandu/xstr#FirstRuneToLower) | `lcfirst` in PHP or Perl | [#15](https://github.com/huandu/xstr/issues/15) |
+| [FirstRuneToUpper](https://godoc.org/github.com/huandu/xstr#FirstRuneToUpper) | `String#capitalize` in Ruby; `ucfirst` in PHP or Perl | [#15](https://github.com/huandu/xstr/issues/15) |
+| [Insert](https://godoc.org/github.com/huandu/xstr#Insert) | `String#insert` in Ruby | [#18](https://github.com/huandu/xstr/issues/18) |
+| [LastPartition](https://godoc.org/github.com/huandu/xstr#LastPartition) | `str.rpartition` in Python; `String#rpartition` in Ruby | [#19](https://github.com/huandu/xstr/issues/19) |
+| [LeftJustify](https://godoc.org/github.com/huandu/xstr#LeftJustify) | `str.ljust` in Python; `String#ljust` in Ruby | [#28](https://github.com/huandu/xstr/issues/28) |
+| [Len](https://godoc.org/github.com/huandu/xstr#Len) | `mb_strlen` in PHP | [#23](https://github.com/huandu/xstr/issues/23) |
+| [Partition](https://godoc.org/github.com/huandu/xstr#Partition) | `str.partition` in Python; `String#partition` in Ruby | [#10](https://github.com/huandu/xstr/issues/10) |
+| [Reverse](https://godoc.org/github.com/huandu/xstr#Reverse) | `String#reverse` in Ruby; `strrev` in PHP; `reverse` in Perl | [#7](https://github.com/huandu/xstr/issues/7) |
+| [RightJustify](https://godoc.org/github.com/huandu/xstr#RightJustify) | `str.rjust` in Python; `String#rjust` in Ruby | [#29](https://github.com/huandu/xstr/issues/29) |
+| [RuneWidth](https://godoc.org/github.com/huandu/xstr#RuneWidth) | - | [#27](https://github.com/huandu/xstr/issues/27) |
+| [Scrub](https://godoc.org/github.com/huandu/xstr#Scrub) | `String#scrub` in Ruby | [#20](https://github.com/huandu/xstr/issues/20) |
+| [Shuffle](https://godoc.org/github.com/huandu/xstr#Shuffle) | `str_shuffle` in PHP | [#13](https://github.com/huandu/xstr/issues/13) |
+| [ShuffleSource](https://godoc.org/github.com/huandu/xstr#ShuffleSource) | `str_shuffle` in PHP | [#13](https://github.com/huandu/xstr/issues/13) |
+| [Slice](https://godoc.org/github.com/huandu/xstr#Slice) | `mb_substr` in PHP | [#9](https://github.com/huandu/xstr/issues/9) |
+| [Squeeze](https://godoc.org/github.com/huandu/xstr#Squeeze) | `String#squeeze` in Ruby | [#11](https://github.com/huandu/xstr/issues/11) |
+| [Successor](https://godoc.org/github.com/huandu/xstr#Successor) | `String#succ` or `String#next` in Ruby | [#22](https://github.com/huandu/xstr/issues/22) |
+| [SwapCase](https://godoc.org/github.com/huandu/xstr#SwapCase) | `str.swapcase` in Python; `String#swapcase` in Ruby | [#12](https://github.com/huandu/xstr/issues/12) |
+| [ToCamelCase](https://godoc.org/github.com/huandu/xstr#ToCamelCase) | `String#camelize` in RoR | [#1](https://github.com/huandu/xstr/issues/1) |
+| [ToKebab](https://godoc.org/github.com/huandu/xstr#ToKebabCase) | - | [#41](https://github.com/huandu/xstr/issues/41) |
+| [ToSnakeCase](https://godoc.org/github.com/huandu/xstr#ToSnakeCase) | `String#underscore` in RoR | [#1](https://github.com/huandu/xstr/issues/1) |
+| [Translate](https://godoc.org/github.com/huandu/xstr#Translate) | `str.translate` in Python; `String#tr` in Ruby; `strtr` in PHP; `tr///` in Perl | [#21](https://github.com/huandu/xstr/issues/21) |
+| [Width](https://godoc.org/github.com/huandu/xstr#Width) | `mb_strwidth` in PHP | [#26](https://github.com/huandu/xstr/issues/26) |
+| [WordCount](https://godoc.org/github.com/huandu/xstr#WordCount) | `str_word_count` in PHP | [#14](https://github.com/huandu/xstr/issues/14) |
+| [WordSplit](https://godoc.org/github.com/huandu/xstr#WordSplit) | - | [#14](https://github.com/huandu/xstr/issues/14) |
 
 ### Package `strings` functions ###
 
