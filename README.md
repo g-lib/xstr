@@ -115,3 +115,7 @@ Here is a list of functions in [strings](http://golang.org/pkg/strings) and [xst
 ## License ##
 
 This library is licensed under MIT license. See LICENSE for details.
+
+## Acknowledgement
+
+Original code was forked from [xstrings](https://github.com/huandu/xstrings)
