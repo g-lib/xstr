@@ -98,3 +98,18 @@ func TestCenter(t *testing.T) {
 		sep("hello中文test", "18", ""):   "hello中文test",
 	})
 }
+
+
+func TestPrettyJSON(t *testing.T){
+	str1 := `{"code":123456,"items":[1,2,3,4,5]}`
+	str2 := `"code":123456}`
+
+	_,err := PrettyJSON(str1,2)
+	if err != nil{
+		t.Errorf("%s should be valid json",str1)
+	}
+	_,err = PrettyJSON(str2,2)
+	if err == nil{
+		t.Errorf("%s should not be valid json",str2)
+	}
+}
