@@ -1,4 +1,3 @@
-
 // Licensed under the MIT license that can be found in the LICENSE file.
 
 package xstr
@@ -59,10 +58,10 @@ func TestDelete(t *testing.T) {
 	})
 }
 
-func TestCount(t *testing.T) {
+func TestCountRune(t *testing.T) {
 	runner := func(str string) string {
 		input := strings.Split(str, separator)
-		return fmt.Sprint(Count(input[0], input[1]))
+		return fmt.Sprint(CountRune(input[0], input[1]))
 	}
 
 	runTestCases(t, runner, _M{

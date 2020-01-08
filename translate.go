@@ -457,14 +457,14 @@ func Delete(str, pattern string) string {
 	return tr.Translate(str)
 }
 
-// Count how many runes in str match the pattern.
+// CountRune how many runes in str match the pattern.
 // Pattern is defined in Translate function.
 //
 // Samples:
-//     Count("hello", "aeiou") => 3
-//     Count("hello", "a-k")   => 3
-//     Count("hello", "^a-k")  => 2
-func Count(str, pattern string) int {
+//     CountRune("hello", "aeiou") => 3
+//     CountRune("hello", "a-k")   => 3
+//     CountRune("hello", "^a-k")  => 2
+func CountRune(str, pattern string) int {
 	if pattern == "" || str == "" {
 		return 0
 	}
