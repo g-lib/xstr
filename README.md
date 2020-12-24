@@ -12,13 +12,10 @@
 
 ## 安装 ##
 
-使用 `go get` to 安装这个库
+使用 `go get` 安装
 
     go get -u github.com/g-lib/xstr
 
-## API 文档 ##
-
-前往 [GoDoc](https://godoc.org/github.com/g-lib/xstr) 查看完整文档.
 
 ## 函数列表 ##
 
