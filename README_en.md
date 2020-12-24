@@ -1,26 +1,29 @@
 # xstr #
 
-[![构建状态](https://travis-ci.org/g-lib/xstr.svg?branch=master)](https://travis-ci.com/g-lib/xstr)
+[![Build Status](https://travis-ci.org/g-lib/xstr.svg?branch=master)](https://travis-ci.com/g-lib/xstr)
 [![GoDoc](https://godoc.org/github.com/g-lib/xstr?status.svg)](https://godoc.org/github.com/g-lib/xstr)
-[![Go报告](https://goreportcard.com/badge/github.com/g-lib/xstr)](https://goreportcard.com/report/github.com/g-lib/xstr)
-[![覆盖状态](https://coveralls.io/repos/github/g-lib/xstr/badge.svg?branch=master)](https://coveralls.io/github/g-lib/xstr?branch=master)
+[![Go Report](https://goreportcard.com/badge/github.com/g-lib/xstr)](https://goreportcard.com/report/github.com/g-lib/xstr)
+[![Coverage Status](https://coveralls.io/repos/github/g-lib/xstr/badge.svg?branch=master)](https://coveralls.io/github/g-lib/xstr?branch=master)
 
 Go package [xstr](https://godoc.org/github.com/g-lib/xstr) is a collection of string functions, which are widely used in other languages but absent in Go package [strings](http://golang.org/pkg/strings).
 
 All functions are well tested and carefully tuned for performance.
 
+## Propose a new function ##
 
-## 安装 ##
+Please review [contributing guideline](CONTRIBUTING.md) and [create new issue](https://github.com/g-lib/xstr/issues) to state why it should be included.
 
-使用 `go get` to 安装这个库
+## Install ##
 
-    go get -u github.com/g-lib/xstr
+Use `go get` to install this library.
 
-## API 文档 ##
+    go get github.com/g-lib/xstr
 
-前往 [GoDoc](https://godoc.org/github.com/g-lib/xstr) 查看完整文档.
+## API document ##
 
-## 函数列表 ##
+See [GoDoc](https://godoc.org/github.com/g-lib/xstr) for full document.
+
+## Function list ##
 
 Go functions have a unique naming style. One, who has experience in other language but new in Go, may have difficulties to find out right string function to use.
 
