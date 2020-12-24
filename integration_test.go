@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestHasPrefix(t *testing.T) { 
+func TestHasPrefix(t *testing.T) {
 	prefix := "www"
 	str1 := "wwwg-tool-xstr"
 	str2 := "g-tool-xstr"

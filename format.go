@@ -4,12 +4,12 @@ package xstr
 
 import (
 	"bytes"
+	"encoding/json"
 	"fmt"
 	"io"
 	"reflect"
 	"strings"
 	"unicode/utf8"
-	"encoding/json"
 )
 
 // ExpandTabs can expand tabs ('\t') rune in str to one or more spaces dpending on
@@ -158,12 +158,12 @@ func PrettyJSON(str string, indent int) (string, error) {
 	fmt.Println(indent)
 	var dat map[string]interface{}
 	var buf bytes.Buffer
-	err := json.Unmarshal([]byte(str),&dat)
-	if err != nil{
-		return str,err
+	err := json.Unmarshal([]byte(str), &dat)
+	if err != nil {
+		return str, err
 	}
 	prettify(reflect.ValueOf(dat), 0, &buf)
-	return buf.String(),nil
+	return buf.String(), nil
 }
 
 // MustPrettyJSON convert a json-str to a json-str that humans can read easily

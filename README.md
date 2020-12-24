@@ -1,6 +1,6 @@
 # xstr #
 
-[![Build Status](https://travis-ci.org/g-lib/xstr.svg?branch=master)](https://travis-ci.org/g-lib/xstr)
+[![Build Status](https://travis-ci.org/g-lib/xstr.svg?branch=master)](https://travis-ci.com/g-lib/xstr)
 [![GoDoc](https://godoc.org/github.com/g-lib/xstr?status.svg)](https://godoc.org/github.com/g-lib/xstr)
 [![Go Report](https://goreportcard.com/badge/github.com/g-lib/xstr)](https://goreportcard.com/report/github.com/g-lib/xstr)
 [![Coverage Status](https://coveralls.io/repos/github/g-lib/xstr/badge.svg?branch=master)](https://coveralls.io/github/g-lib/xstr?branch=master)

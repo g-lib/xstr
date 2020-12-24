@@ -1,4 +1,3 @@
-
 // Licensed under the MIT license that can be found in the LICENSE file.
 
 package xstr
@@ -99,17 +98,16 @@ func TestCenter(t *testing.T) {
 	})
 }
 
-
-func TestPrettyJSON(t *testing.T){
+func TestPrettyJSON(t *testing.T) {
 	str1 := `{"code":123456,"items":[1,2,3,4,5]}`
 	str2 := `"code":123456}`
 
-	_,err := PrettyJSON(str1,2)
-	if err != nil{
-		t.Errorf("%s should be valid json",str1)
+	_, err := PrettyJSON(str1, 2)
+	if err != nil {
+		t.Errorf("%s should be valid json", str1)
 	}
-	_,err = PrettyJSON(str2,2)
-	if err == nil{
-		t.Errorf("%s should not be valid json",str2)
+	_, err = PrettyJSON(str2, 2)
+	if err == nil {
+		t.Errorf("%s should not be valid json", str2)
 	}
 }
