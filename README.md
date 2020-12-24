@@ -5,7 +5,7 @@
 [![Go报告](https://goreportcard.com/badge/github.com/g-lib/xstr)](https://goreportcard.com/report/github.com/g-lib/xstr)
 [![覆盖状态](https://coveralls.io/repos/github/g-lib/xstr/badge.svg?branch=master)](https://coveralls.io/github/g-lib/xstr?branch=master)
 
-Go包[xstr](https://godoc.org/github.com/g-lib/xstr) 是一个字符串函数集合, 这些函数在其他与扬中被广泛使用但是在Go的[strings](http://golang.org/pkg/strings)中却没有.
+[xstr](https://godoc.org/github.com/g-lib/xstr) 是一个字符串函数集合, 这些函数在其他语言中被广泛使用但是在[strings](http://golang.org/pkg/strings)中却没有.
 
 
 
