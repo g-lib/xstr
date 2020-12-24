@@ -5,9 +5,9 @@
 [![Go报告](https://goreportcard.com/badge/github.com/g-lib/xstr)](https://goreportcard.com/report/github.com/g-lib/xstr)
 [![覆盖状态](https://coveralls.io/repos/github/g-lib/xstr/badge.svg?branch=master)](https://coveralls.io/github/g-lib/xstr?branch=master)
 
-Go package [xstr](https://godoc.org/github.com/g-lib/xstr) is a collection of string functions, which are widely used in other languages but absent in Go package [strings](http://golang.org/pkg/strings).
+Go包[xstr](https://godoc.org/github.com/g-lib/xstr) 是一个字符串函数集合, 这些函数在其他与扬中被广泛使用但是在Go的[strings](http://golang.org/pkg/strings)中却没有.
 
-All functions are well tested and carefully tuned for performance.
+
 
 
 ## 安装 ##
@@ -21,13 +21,6 @@ All functions are well tested and carefully tuned for performance.
 前往 [GoDoc](https://godoc.org/github.com/g-lib/xstr) 查看完整文档.
 
 ## 函数列表 ##
-
-Go functions have a unique naming style. One, who has experience in other language but new in Go, may have difficulties to find out right string function to use.
-
-Here is a list of functions in [strings](http://golang.org/pkg/strings) and [xstr](https://godoc.org/github.com/g-lib/xstr) with enough extra information about how to map these functions to their friends in other languages. Hope this list could be helpful for fresh gophers.
-
-### Package `xstr` functions ###
-
 
 
 | 函数                                                                         | Friends                                                                             | #   |
