@@ -30,36 +30,36 @@ Here is a list of functions in [strings](http://golang.org/pkg/strings) and [xst
 
 
 
-| 函数                                                                         | Friends                                                                             | #                                              |
-| ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------- |
-| [Center](https://godoc.org/github.com/g-lib/xstr#Center)                     | `str.center` in Python; `String#center` in Ruby                                     | [#30](https://github.com/g-lib/xstr/issues/30) |
-| [Count](https://godoc.org/github.com/g-lib/xstr#Count)                       | `String#count` in Ruby                                                              | [#16](https://github.com/g-lib/xstr/issues/16) |
-| [Delete](https://godoc.org/github.com/g-lib/xstr#Delete)                     | `String#delete` in Ruby                                                             | [#17](https://github.com/g-lib/xstr/issues/17) |
-| [ExpandTabs](https://godoc.org/github.com/g-lib/xstr#ExpandTabs)             | `str.expandtabs` in Python                                                          | [#27](https://github.com/g-lib/xstr/issues/27) |
-| [FirstRuneToLower](https://godoc.org/github.com/g-lib/xstr#FirstRuneToLower) | `lcfirst` in PHP or Perl                                                            | [#15](https://github.com/g-lib/xstr/issues/15) |
-| [FirstRuneToUpper](https://godoc.org/github.com/g-lib/xstr#FirstRuneToUpper) | `String#capitalize` in Ruby; `ucfirst` in PHP or Perl                               | [#15](https://github.com/g-lib/xstr/issues/15) |
-| [Insert](https://godoc.org/github.com/g-lib/xstr#Insert)                     | `String#insert` in Ruby                                                             | [#18](https://github.com/g-lib/xstr/issues/18) |
-| [LastPartition](https://godoc.org/github.com/g-lib/xstr#LastPartition)       | `str.rpartition` in Python; `String#rpartition` in Ruby                             | [#19](https://github.com/g-lib/xstr/issues/19) |
-| [LeftJustify](https://godoc.org/github.com/g-lib/xstr#LeftJustify)           | `str.ljust` in Python; `String#ljust` in Ruby                                       | [#28](https://github.com/g-lib/xstr/issues/28) |
-| [Len](https://godoc.org/github.com/g-lib/xstr#Len)                           | `mb_strlen` in PHP                                                                  | [#23](https://github.com/g-lib/xstr/issues/23) |
-| [Partition](https://godoc.org/github.com/g-lib/xstr#Partition)               | `str.partition` in Python; `String#partition` in Ruby                               | [#10](https://github.com/g-lib/xstr/issues/10) |
-| [Reverse](https://godoc.org/github.com/g-lib/xstr#Reverse)                   | `String#reverse` in Ruby; `strrev` in PHP; `reverse` in Perl                        | [#7](https://github.com/g-lib/xstr/issues/7)   |
-| [RightJustify](https://godoc.org/github.com/g-lib/xstr#RightJustify)         | `str.rjust` in Python; `String#rjust` in Ruby                                       | [#29](https://github.com/g-lib/xstr/issues/29) |
-| [RuneWidth](https://godoc.org/github.com/g-lib/xstr#RuneWidth)               | -                                                                                   | [#27](https://github.com/g-lib/xstr/issues/27) |
-| [Scrub](https://godoc.org/github.com/g-lib/xstr#Scrub)                       | `String#scrub` in Ruby                                                              | [#20](https://github.com/g-lib/xstr/issues/20) |
-| [Shuffle](https://godoc.org/github.com/g-lib/xstr#Shuffle)                   | `str_shuffle` in PHP                                                                | [#13](https://github.com/g-lib/xstr/issues/13) |
-| [ShuffleSource](https://godoc.org/github.com/g-lib/xstr#ShuffleSource)       | `str_shuffle` in PHP                                                                | [#13](https://github.com/g-lib/xstr/issues/13) |
-| [Slice](https://godoc.org/github.com/g-lib/xstr#Slice)                       | `mb_substr` in PHP                                                                  | [#9](https://github.com/g-lib/xstr/issues/9)   |
-| [Squeeze](https://godoc.org/github.com/g-lib/xstr#Squeeze)                   | `String#squeeze` in Ruby                                                            | [#11](https://github.com/g-lib/xstr/issues/11) |
-| [Successor](https://godoc.org/github.com/g-lib/xstr#Successor)               | `String#succ` or `String#next` in Ruby                                              | [#22](https://github.com/g-lib/xstr/issues/22) |
-| [SwapCase](https://godoc.org/github.com/g-lib/xstr#SwapCase)                 | `str.swapcase` in Python; `String#swapcase` in Ruby                                 | [#12](https://github.com/g-lib/xstr/issues/12) |
-| [ToCamelCase](https://godoc.org/github.com/g-lib/xstr#ToCamelCase)           | `String#camelize` in RoR                                                            | [#1](https://github.com/g-lib/xstr/issues/1)   |
-| [ToKebab](https://godoc.org/github.com/g-lib/xstr#ToKebabCase)               | -                                                                                   | [#41](https://github.com/g-lib/xstr/issues/41) |
-| [ToSnakeCase](https://godoc.org/github.com/g-lib/xstr#ToSnakeCase)           | `String#underscore` in RoR                                                          | [#1](https://github.com/g-lib/xstr/issues/1)   |
-| [Translate](https://godoc.org/github.com/g-lib/xstr#Translate)               | `str.translate` in Python; `String#tr` in Ruby; `strtr` in PHP; `tr///` in Perl     | [#21](https://github.com/g-lib/xstr/issues/21) |
-| [Width](https://godoc.org/github.com/g-lib/xstr#Width)                       | `mb_strwidth` in PHP                                                                | [#26](https://github.com/g-lib/xstr/issues/26) |
-| [WordCount](https://godoc.org/github.com/g-lib/xstr#WordCount)               | `str_word_count` in PHP                                                             | [#14](https://github.com/g-lib/xstr/issues/14) |
-| [WordSplit](https://godoc.org/github.com/g-lib/xstr#WordSplit)               | -                                                                                   | [#14](https://github.com/g-lib/xstr/issues/14) |
+| 函数                                                                         | Friends                                                                             | #   |
+| ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | --- |
+| [Center](https://godoc.org/github.com/g-lib/xstr#Center)                     | `str.center` in Python; `String#center` in Ruby                                     |
+| [Count](https://godoc.org/github.com/g-lib/xstr#Count)                       | `String#count` in Ruby                                                              |
+| [Delete](https://godoc.org/github.com/g-lib/xstr#Delete)                     | `String#delete` in Ruby                                                             |
+| [ExpandTabs](https://godoc.org/github.com/g-lib/xstr#ExpandTabs)             | `str.expandtabs` in Python                                                          |
+| [FirstRuneToLower](https://godoc.org/github.com/g-lib/xstr#FirstRuneToLower) | `lcfirst` in PHP or Perl                                                            |
+| [FirstRuneToUpper](https://godoc.org/github.com/g-lib/xstr#FirstRuneToUpper) | `String#capitalize` in Ruby; `ucfirst` in PHP or Perl                               |
+| [Insert](https://godoc.org/github.com/g-lib/xstr#Insert)                     | `String#insert` in Ruby                                                             |
+| [LastPartition](https://godoc.org/github.com/g-lib/xstr#LastPartition)       | `str.rpartition` in Python; `String#rpartition` in Ruby                             |
+| [LeftJustify](https://godoc.org/github.com/g-lib/xstr#LeftJustify)           | `str.ljust` in Python; `String#ljust` in Ruby                                       |
+| [Len](https://godoc.org/github.com/g-lib/xstr#Len)                           | `mb_strlen` in PHP                                                                  |
+| [Partition](https://godoc.org/github.com/g-lib/xstr#Partition)               | `str.partition` in Python; `String#partition` in Ruby                               |
+| [Reverse](https://godoc.org/github.com/g-lib/xstr#Reverse)                   | `String#reverse` in Ruby; `strrev` in PHP; `reverse` in Perl                        |
+| [RightJustify](https://godoc.org/github.com/g-lib/xstr#RightJustify)         | `str.rjust` in Python; `String#rjust` in Ruby                                       |
+| [RuneWidth](https://godoc.org/github.com/g-lib/xstr#RuneWidth)               | -                                                                                   |
+| [Scrub](https://godoc.org/github.com/g-lib/xstr#Scrub)                       | `String#scrub` in Ruby                                                              |
+| [Shuffle](https://godoc.org/github.com/g-lib/xstr#Shuffle)                   | `str_shuffle` in PHP                                                                |
+| [ShuffleSource](https://godoc.org/github.com/g-lib/xstr#ShuffleSource)       | `str_shuffle` in PHP                                                                |
+| [Slice](https://godoc.org/github.com/g-lib/xstr#Slice)                       | `mb_substr` in PHP                                                                  |
+| [Squeeze](https://godoc.org/github.com/g-lib/xstr#Squeeze)                   | `String#squeeze` in Ruby                                                            |
+| [Successor](https://godoc.org/github.com/g-lib/xstr#Successor)               | `String#succ` or `String#next` in Ruby                                              |
+| [SwapCase](https://godoc.org/github.com/g-lib/xstr#SwapCase)                 | `str.swapcase` in Python; `String#swapcase` in Ruby                                 |
+| [ToCamelCase](https://godoc.org/github.com/g-lib/xstr#ToCamelCase)           | `String#camelize` in RoR                                                            |
+| [ToKebab](https://godoc.org/github.com/g-lib/xstr#ToKebabCase)               | -                                                                                   |
+| [ToSnakeCase](https://godoc.org/github.com/g-lib/xstr#ToSnakeCase)           | `String#underscore` in RoR                                                          |
+| [Translate](https://godoc.org/github.com/g-lib/xstr#Translate)               | `str.translate` in Python; `String#tr` in Ruby; `strtr` in PHP; `tr///` in Perl     |
+| [Width](https://godoc.org/github.com/g-lib/xstr#Width)                       | `mb_strwidth` in PHP                                                                |
+| [WordCount](https://godoc.org/github.com/g-lib/xstr#WordCount)               | `str_word_count` in PHP                                                             |
+| [WordSplit](https://godoc.org/github.com/g-lib/xstr#WordSplit)               | -                                                                                   |
 | [Contains](http://golang.org/pkg/strings/#Contains)                          | `String#include?` in Ruby                                                           |
 | [ContainsAny](http://golang.org/pkg/strings/#ContainsAny)                    | -                                                                                   |
 | [ContainsRune](http://golang.org/pkg/strings/#ContainsRune)                  | -                                                                                   |
